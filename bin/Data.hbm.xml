@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 21 Aug, 2012 9:45:48 PM by Hibernate Tools 3.2.2.GA -->
+<hibernate-mapping>
+    <class name="zaakpay.Data" table="data" catalog="cache">
+        <id name="id" type="int">
+            <column name="id" />
+            <generator class="assigned" />
+        </id>
+        
+        <property name="key1" type="string">
+            <column name="key1" length="100" not-null="false" />
+        </property>
+        
+        <property name="value1" type="string">
+            <column name="value1" length="100" not-null="false"/>
+        </property>
+       
+    </class>
+</hibernate-mapping>
